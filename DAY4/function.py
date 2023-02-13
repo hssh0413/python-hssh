@@ -37,6 +37,6 @@ def 함수이름(입력):
 # hssh(10,20)
 # Q5-주어진 수중 짝수 출력
 def hssh(a):
-    for i in range(a*2):
-        print(i%2==0)
+    for i in range(a%2==0):
+        print(i)
 hssh(5)
